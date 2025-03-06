@@ -26,11 +26,12 @@
     display:flex;
     justify-content: center;
     margin-top: 20px;
+    gap:15px;
 }
 
 .grid-square {
     width: calc(100% / 16);  /* Makes 16 equal squares per row */
     height: calc(100% / 16);
     border: 1px solid lightgray;
-    box-sizing: border-box;  Ensures border doesn't affect size
+    box-sizing: border-box;  /* Ensures border doesn't affect size */
 }
