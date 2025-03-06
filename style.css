@@ -11,16 +11,16 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.container{
-    text-align: center;
-    font-size: 40px;
-    font-style: oblique;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;  /* Fixed size */
+    height: 500px;
     border: solid;
     background-color: aliceblue;
-    min-height: 500px;
-    width: 60%; /* Adjust width dynamically */
-    margin: 0 auto; /* Centers the container */
+    margin: 0 auto;
 }
+
 
 .buttons{
     display:flex;
@@ -28,4 +28,9 @@
     margin-top: 20px;
 }
 
-
+.grid-square {
+    width: calc(100% / 16);  /* Makes 16 equal squares per row */
+    height: calc(100% / 16);
+    border: 1px solid lightgray;
+    box-sizing: border-box;  Ensures border doesn't affect size
+}
