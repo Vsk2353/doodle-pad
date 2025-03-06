@@ -14,7 +14,7 @@ bStart.addEventListener("click", function (){
 
     grids.forEach(grid => {
         grid.addEventListener("mouseenter", function (){
-        grid.style.backgroundColor = "blue";
+        grid.style.backgroundColor = `rgb(${Math.random()*255},${Math.random()*255},${Math.random()*255})`;
     })
 })
 })
@@ -37,7 +37,6 @@ bChoice.addEventListener("click", function (){
 
     grids.forEach(grid => {
         grid.addEventListener("mouseenter", function (){
-        grid.style.backgroundColor = "blue";})
+        grid.style.backgroundColor = `rgb(${Math.random()*255},${Math.random()*255},${Math.random()*255})`;})
 })
-
 })
