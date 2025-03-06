@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    margin:20px;
+}
+
+.container{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    border: solid;
+    background-color: aliceblue;
+    min-height: 500px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
