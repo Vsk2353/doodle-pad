@@ -1,8 +1,14 @@
-.header{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.header {
     text-align: center;
     font-size: 50px;
-    font-style: oblique;
-    margin:20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 20px;
+    text-transform: uppercase;  /* Makes it more striking */
+    letter-spacing: 2px; /* Enhances readability */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .container{
@@ -12,6 +18,7 @@
     border: solid;
     background-color: aliceblue;
     min-height: 500px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 60%; /* Adjust width dynamically */
+    margin: 0 auto; /* Centers the container */
+
 }
